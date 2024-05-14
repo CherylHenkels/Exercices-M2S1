@@ -18,6 +18,7 @@ header{
     background-color: #cad2c5; /* Cor de fundo */
     color: #354f52; /* Cor do texto */
     padding: 10px 20px; /* Espaçamento interno */
+    margin-bottom: 5px; /* Espaçamento externo */
     border: 1px solid #354f52; /* borda Syntax: <line-width> || <line-style> || <color> */
     border-radius: 8px; /* Borda arredondada */
     cursor: pointer; /* Cursor ao passar */
@@ -29,3 +30,52 @@ button:hover {
     background-color: #354f52; /* Cor de fundo ao passar o mouse */
     color: #cad2c5;
 }
+
+.separator{
+    border: 0; /* Remove a borda padrão */
+    height: 1px; /* Altura da linha */
+    background-color: #f3f0f0; /* Cor da linha */
+    margin: 5px 0; /* Margem superior e inferior */
+}
+
+
+main{
+    font-size: 12px;
+    background-color: #cad2c5;
+}
+
+.pergunta{
+    padding: 4px 10px; /* Espaçamento interno */
+}
+
+ .pergunta input[type="text"]{
+    /* Estilos para campos de entrada de texto dentro de elementos com a classe .pergunta */
+    /* width: 90%; */
+    padding: 10px;
+    margin: 1px;
+    border: 1px transparent;
+    box-shadow: 0 0 5px #354f52;
+    border-radius: 8px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Estilização do efeito de foco */
+.pergunta input[type="text"]:focus {
+    border-color: #354f52; /* Altera a cor da borda quando o campo está em foco */
+    outline: none; /* Remove a borda de foco padrão */
+    box-shadow: 0 0 5px #ce6a85; /*Adiciona uma sombra mais pronunciada quando o campo está em foco*/
+}
+
+main button[type="submit"] {
+    /* Estilos para o botão "Enviar Respostas" */
+    padding: 10px 20px;
+    margin: 5px 10px;
+    /* background-color: #007bff; */
+    /* color: #fff; */
+    /* border: none; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
