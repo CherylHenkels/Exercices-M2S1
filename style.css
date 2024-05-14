@@ -1,54 +1,69 @@
-header{
+header {
     text-align: center;
     background-color: #ddd2bc;
     color: #723d46;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.title{
+.title {
     font-size: 40px;
 }
 
 
-.description{
+.description {
     font-size: 24px;
 }
 
-.iniciar{
-    background-color: #cad2c5; /* Cor de fundo */
-    color: #354f52; /* Cor do texto */
-    padding: 10px 20px; /* Espaçamento interno */
-    margin-bottom: 5px; /* Espaçamento externo */
-    border: 1px solid #354f52; /* borda Syntax: <line-width> || <line-style> || <color> */
-    border-radius: 8px; /* Borda arredondada */
-    cursor: pointer; /* Cursor ao passar */
-    text-decoration: none; /* Remove decoração de texto */
-    transition: background-color 0.2s, color 0.2s; /* Transição de cor de fundo || tempo da transição, transição cor do texto || tempo de transição*/
+.iniciar {
+    background-color: #cad2c5;
+    /* Cor de fundo */
+    color: #354f52;
+    /* Cor do texto */
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    margin-bottom: 5px;
+    /* Espaçamento externo */
+    border: 1px solid #354f52;
+    /* borda Syntax: <line-width> || <line-style> || <color> */
+    border-radius: 8px;
+    /* Borda arredondada */
+    cursor: pointer;
+    /* Cursor ao passar */
+    text-decoration: none;
+    /* Remove decoração de texto */
+    transition: background-color 0.2s, color 0.2s;
+    /* Transição de cor de fundo || tempo da transição, transição cor do texto || tempo de transição*/
 }
 
 button:hover {
-    background-color: #354f52; /* Cor de fundo ao passar o mouse */
+    background-color: #354f52;
+    /* Cor de fundo ao passar o mouse */
     color: #cad2c5;
 }
 
-.separator{
-    border: 0; /* Remove a borda padrão */
-    height: 1px; /* Altura da linha */
-    background-color: #f3f0f0; /* Cor da linha */
-    margin: 5px 0; /* Margem superior e inferior */
+.separator {
+    border: 0;
+    /* Remove a borda padrão */
+    height: 1px;
+    /* Altura da linha */
+    background-color: #f3f0f0;
+    /* Cor da linha */
+    margin: 5px 0;
+    /* Margem superior e inferior */
 }
 
 
-main{
+main {
     font-size: 12px;
     background-color: #cad2c5;
 }
 
-.pergunta{
-    padding: 4px 10px; /* Espaçamento interno */
+.pergunta {
+    padding: 4px 10px;
+    /* Espaçamento interno */
 }
 
- .pergunta input[type="text"]{
+.pergunta input[type="text"] {
     /* Estilos para campos de entrada de texto dentro de elementos com a classe .pergunta */
     /* width: 90%; */
     padding: 10px;
@@ -61,9 +76,12 @@ main{
 
 /* Estilização do efeito de foco */
 .pergunta input[type="text"]:focus {
-    border-color: #354f52; /* Altera a cor da borda quando o campo está em foco */
-    outline: none; /* Remove a borda de foco padrão */
-    box-shadow: 0 0 5px #ce6a85; /*Adiciona uma sombra mais pronunciada quando o campo está em foco*/
+    border-color: #354f52;
+    /* Altera a cor da borda quando o campo está em foco */
+    outline: none;
+    /* Remove a borda de foco padrão */
+    box-shadow: 0 0 5px #ce6a85;
+    /*Adiciona uma sombra mais pronunciada quando o campo está em foco*/
 }
 
 main button[type="submit"] {
@@ -78,19 +96,19 @@ main button[type="submit"] {
     transition: background-color 0.3s;
 }
 
-footer{
+footer {
     background-color: #723d46;
     color: #ddd2bc;
-    text-align: center ;
-    
+    text-align: center;
+
 }
 
-footer p{
+footer p {
     padding: 5px;
     font-size: 12px;
 }
 
-footer a{
+footer a {
     color: #ddd2bc;
     text-decoration: none;
 }
