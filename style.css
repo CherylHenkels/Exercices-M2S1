@@ -78,4 +78,21 @@ main button[type="submit"] {
     transition: background-color 0.3s;
 }
 
+footer{
+    background-color: #723d46;
+    color: #ddd2bc;
+    text-align: center ;
+    
+}
+
+footer p{
+    padding: 5px;
+    font-size: 12px;
+}
+
+footer a{
+    color: #ddd2bc;
+    text-decoration: none;
+}
+
 
