@@ -11,12 +11,104 @@
         <h1 class="title">LabQuiz</h1>
         <p class="description">Vamos testar nossos conhecimentos sobre html e css?</p>
         <form>
-            <label for="nome">
+            <label for="nome"></label>
                 <input type="text" id="nome" name="nome" placeholder="Digite seu nome"/>
                 <button class="iniciar" type="submit">Iniciar</button>
-            </label>
         </form>
     </header>
+
+    <hr class="separator"> <!-- Linha de separação -->
+
+ <main>
+    <form>
+            <!-- Pergunta 1 -->
+        <div class="pergunta">
+            <label for="resposta1">1. Como se define um estilo inline em HTML?</label> <br>
+            <input type="text" name="resposta1" id="resposta1" placeholder="Sua resposta...">
+        </div>
+
+            <!-- Pergunta 2 -->
+            <div class="pergunta">
+                <label for="resposta2">2. Qual é a tag usada para criar uma lista ordenada em HTML?</label> <br>
+                <select name="resposta2" id="resposta2">
+                    <option value="">Selecione uma opção</option>
+                    <option value="ol">ol</option>
+                    <option value="ul">ul</option>
+                    <option value="li">li</option>
+                    <option value="order-list">order-list</option>
+                </select>
+            </div>
+
+            <!-- Pergunta 3 -->
+            <div class="pergunta">
+                <label for="resposta3">3. Qual propriedade CSS é usada para alterar a cor do texto?</label> <br>
+                <select name="resposta3" id="resposta3">
+                    <option value="">Selecione uma opção</option>
+                    <option value="font-color">font-color</option>
+                    <option value="color">color</option>
+                    <option value="background-color">background-color</option>
+                    <option value="text-color">text-color</option>
+                </select>
+            </div>
+            
+            <!-- Pergunta 4 -->
+            <div class="pergunta">
+                <label for="resposta4">4. Como se referencia um arquivo CSS externo em um documento HTML?</label> <br>
+                <input type="text" name="resposta4" id="resposta4" placeholder="Sua resposta...">
+            </div>
+
+            <!-- Pergunta 5 -->
+            <div class="pergunta">
+                <label for="resposta5">5. Font-size é a propriedade CSS usada para alterar o tamanho da fonte de um texto?</label> <br>
+                <select name="resposta5" id="resposta5">
+                    <option value="">Selecione uma opção</option>
+                    <option value="sim">sim</option>
+                    <option value="nao">não</option>
+                </select>
+            </div>
+
+      <!-- Pergunta 6 -->
+      <div class="pergunta">
+        <label>6. Qual é a propriedade CSS usada para definir a largura de um elemento?</label>
+        <input type="checkbox" name="resposta6" value="height">
+        <label for="resposta6">height</label><br>
+        <input type="checkbox" name="resposta6" value="size">
+        <label for="resposta6">size</label><br>
+        <input type="checkbox" name="resposta6" value="width">
+        <label for="resposta6">width</label><br>
+        <input type="checkbox" name="resposta6" value="max-width">
+        <label for="resposta6">max-width</label><br>
+    </div>        
+    
+          <!-- Pergunta 7 -->
+          <div class="pergunta">
+            <label>7. Como se cria um comentário em CSS?</label> <br>
+            <input type="checkbox" name="resposta7" value="height">
+            <label for="resposta7">&lt;!-- --&gt;</label><br>
+            <input type="checkbox" name="resposta7" value="size">
+            <label for="resposta7">//</label><br>
+            <input type="checkbox" name="resposta7" value="width">
+            <label for="resposta7">/* */</label><br>
+        </div> 
+
+       <!-- Pergunta 8 -->
+       <div class="pergunta">
+        <label>8. Qual é a propriedade CSS usada para definir a altura de um elemento?</label> <br>
+        <input type="checkbox" name="resposta8" value="height">
+        <label for="resposta8">height</label><br>
+        <input type="checkbox" name="resposta8" value="size">
+        <label for="resposta8">size</label><br>
+        <input type="checkbox" name="resposta8" value="width">
+        <label for="resposta8">min-width</label><br>
+        <input type="checkbox" name="resposta8" value="max-width">
+        <label for="resposta8">max-width</label><br>
+    </div>       
+
+        <br>
+         <!-- Botão de enviar -->
+        <button type="submit">Enviar Respostas</button>
+    </form>
+ </main>
     
 </body>
 </html>
